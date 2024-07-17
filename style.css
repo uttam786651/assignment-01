@@ -92,3 +92,71 @@ header{
 }
 
 
+/* main style */
+main{
+    
+}
+/* web-development section */
+.web-development{
+    /* border: 1px solid rgb(207, 127, 22); */
+    background-color: rgba(13, 19, 33, 0.02);
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-bottom: 90px;
+    padding: 80px 97px;
+
+}
+.web-development-container{
+    /* border: 1px solid rgb(207, 22, 161); */
+    margin: 80px 97px;
+}
+.web-development-title{
+    font-size: 32px;
+    font-weight: 800px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.web-development-description{
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 48px 48px;
+}
+.web-development-cards{
+    /* border: 1px solid rgb(22, 207, 84); */
+}
+.web-development-card-one{
+    /* border: 1px solid rgb(37, 207, 22); */
+    background-image: linear-gradient(to right, rgb(255, 255, 255, 1) , rgba(255, 255, 255, 0));
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+}
+.web-development-card-two{
+    /* border: 1px solid rgb(37, 207, 22); */
+    background-image: linear-gradient(to right, rgb(255, 255, 255, 0) , rgba(255, 255, 255, 1));
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+}
+.web-development-card-three{
+    /* border: 1px solid rgb(37, 207, 22); */
+    background-image: linear-gradient(to right, rgb(255, 255, 255, 1) , rgba(255, 255, 255, 0));
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+}
+.web-development-card-text{
+max-width: 477px;
+}
+.web-development-card-text h2{
+    margin-bottom: 16px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.web-development-card-text p{
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
