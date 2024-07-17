@@ -13,12 +13,7 @@ body{
 button, input{
     font-family: "Azeret Mono", monospace; 
 }
-/* .azeret {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: #0D1321;
-} */
+
 
 /* Shared style */
 .btn-learn-more{
@@ -29,8 +24,6 @@ button, input{
     color: #0D1321;
     text-align: center;
     padding: 12px 20px;
-    /* width: 175px; */
-    /* height: 47px; */
     cursor: pointer;
     text-decoration: none;
 }
@@ -194,7 +187,6 @@ max-width: 477px;
 
 /* target section style */
 .target{
-    /* border: 1px solid blue; */
     max-width: 1140px;
     margin: 150px auto;
     margin-bottom: 90px;
@@ -211,15 +203,11 @@ padding-bottom: 24px;
     line-height: 26px;
     }
 .target-cards{
-    /* border: 1px solid blue; */
     display: flex;
     gap: 24px;
- 
-    
-
 }
+
 .target-card-one{
-    /* border: 1px solid rgb(255, 217, 0); */
     background-color: rgba(255, 76, 30, 0.05);
     border-radius: 16px;
     padding: 24px;
@@ -229,7 +217,6 @@ padding-bottom: 24px;
 
 }
 .target-card-two{
-    /* border: 1px solid blue; */
     background-color: rgba(0, 76, 232, 0.05);
     border-radius: 16px;
     padding: 24px;
@@ -238,7 +225,6 @@ padding-bottom: 24px;
 
 }
 .target-card-three{
-    /* border: 1px solid rgb(30, 255, 0); */
     background-color: rgba(255, 223, 0, 0.05);
     border-radius: 16px;
     padding: 24px;
@@ -250,7 +236,6 @@ padding-bottom: 24px;
     width: 56px;
 }
 .target-card-text{
-    /* border: 1px solid rgb(30, 255, 0); */
     line-height: 26px;
 }
 .target-card-text h2{
@@ -270,14 +255,12 @@ padding-bottom: 24px;
 }
 
 .need-support-container{
-    /* border: 1px solid rgb(30, 255, 0); */
     padding: 64px 48px;
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .need-support-container h1{
-    /* border: 1px solid rgb(30, 255, 0); */
     font-size: 32px;
     font-weight: bold;
     padding-bottom: 16px;
@@ -285,7 +268,6 @@ padding-bottom: 24px;
 }
 
 .need-support-container p{
-    /* border: 1px solid rgb(30, 255, 0); */
     font-size: 16px;
     font-weight: 200;
     padding-bottom: 25px;
@@ -295,21 +277,20 @@ padding-bottom: 24px;
 .need-support-form{
     display: flex;
     margin: 0px auto;
-    
 }
+
 .need-support-form form{
     display: flex;
     margin: 0px auto;
     gap: 16px;
-    
 }
+
 .need-support-form input{
     border-radius: 8px;
     border: none;
     padding: 20px;
-
-    
 }
+
 .need-support-form input[type="text"]{
     font-size: 16px;
     width: 548px;
@@ -339,14 +320,13 @@ footer{
     font-size: 20;
     font-weight: 600;
     padding: 38px 0px;
-
 }
 
 .footer-container{
     max-width: 1140px;
     margin: 0px auto;
-
 }
+
 .footer-sm-icon{
     padding: 38px 0px;
 }
