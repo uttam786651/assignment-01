@@ -29,6 +29,12 @@ body{
     padding: 10px 24px;
     width: 175px;
     height: 47px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-learn-more a{
+    text-decoration: none;
+    color: black;
 }
 
 header{
@@ -75,6 +81,7 @@ header{
     border-radius: 5px;
     width: 244px;
     height: 65px;
+    cursor: pointer;
 }
 
 
@@ -254,6 +261,7 @@ padding-bottom: 24px;
     background-repeat: no-repeat;
     border-radius: 16px;
     margin: 0px auto;
+    margin-bottom: 80px;
 }
 
 .need-support-container{
@@ -303,4 +311,40 @@ padding-bottom: 24px;
 .need-support-form input[type="submit"]{
    font-size: 20px;
    font-weight: 600;
+   cursor: pointer;
 }
+
+/* footer styles */
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-container h4{
+    font-size: 20;
+    font-weight: 600;
+    padding: 38px 0px;
+
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
+.footer-sm-icon{
+    padding: 38px 0px;
+}
+
+.footer-sm-icon img{
+    width: 36px;
+    padding-left: 24px;
+}
+
